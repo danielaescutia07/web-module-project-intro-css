@@ -33,7 +33,7 @@ blockquote, q {
         padding: 0;
         margin: 0;
         max-width: 100%;
-        border: 1px solid grey;
+        
     }
     /* General Styles */
     html {
@@ -88,8 +88,8 @@ blockquote, q {
         position: relative;
     }
     .left, .right {
-        display: inline-block;
         text-align: center;
+        display: inline-block;
     }
     .left {
         width: 35%;
@@ -103,4 +103,42 @@ blockquote, q {
         position: absolute;
         top: 45%;
     }
-    
+
+    /* Middle-first Section Styles */
+    .main-text {
+        background-color: #DDB9A3;
+        color: #fff;
+    }
+    .main-text {
+        margin: 0 10%;
+    }
+
+    /* Middle-second Section Styles */
+    #middle-second div {
+        display: inline-block;
+        text-align: center;
+    }
+    #middle-second .bold {
+        font-weight: bold;
+    }
+    #middle-second img {
+        width: 10%;
+    }
+    #middle-second p {
+        margin: 1.5% 38%;
+    }
+    #middle-section #fire {
+        padding-bottom: 5%;
+    }
+
+    /* Background Image */
+    #image-container {
+        background: url("assets/footer_img.jpg");
+        padding: 12%;
+        background-size: cover;
+    }
+
+    /* Footer Section Styles */
+    footer {
+        background-color: #F9E7DC;
+    }
