@@ -101,7 +101,7 @@ blockquote, q {
     .right {
         width: 60%;
         position: absolute;
-        top: 45%;
+        line-height: 3.5;
     }
 
     /* Middle-first Section Styles */
@@ -111,24 +111,29 @@ blockquote, q {
     }
     .main-text {
         margin: 0 10%;
+        padding: 2% ;
     }
 
     /* Middle-second Section Styles */
-    #middle-second div {
+    #camper, #campfire {
         display: inline-block;
         text-align: center;
     }
-    #middle-second .bold {
+    .bold {
         font-weight: bold;
     }
-    #middle-second img {
+    #campfire img {
         width: 10%;
     }
-    #middle-second p {
-        margin: 1.5% 38%;
+    #camper img {
+        width: 10%;
     }
-    #middle-section #fire {
-        padding-bottom: 5%;
+    #camper p, #campfire p {
+        margin: 1.5% 40%;
+    }
+    #campfire {
+        margin-bottom: 3%;
+        margin-top: -2%;
     }
 
     /* Background Image */
